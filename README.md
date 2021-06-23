@@ -1,0 +1,1 @@
+# Python3-read-variable-from-ADS-Beckhoff
