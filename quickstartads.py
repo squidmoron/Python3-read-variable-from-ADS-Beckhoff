@@ -21,7 +21,6 @@ plc.open()
 
 # check the connection state
 plc.read_state()
-(0, 5)
 
 # read int value by name
 i = plc.read_by_name("GVL.int_val")
@@ -32,10 +31,9 @@ plc.write_by_name("GVL.real_val", 42.0)
 # create a symbol that automatically updates to the plc value
 real_val = plc.get_symbol("GVL.real_val", auto_update=True)
 print(real_val.value)
-42.0
+
 real_val.value = 5.0
 print(plc.read_by_name("GVL.real_val"))
-5.0
 
 # close connection
 plc.close()
