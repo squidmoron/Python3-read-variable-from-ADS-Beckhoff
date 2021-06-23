@@ -1,4 +1,6 @@
 # Python3-read-variable-from-ADS-Beckhoff
+![alt text](https://www.dmcinfo.com/portals/0/2017_Images/beckhoff-cx2020.jpg?raw=true)
+
 This is a Python wrapper for TwinCATs ADS library. It aims to provide a pythonic way to communicate with TwinCAT devices by using the Python programming language. pyads uses the C API provided by TcAdsDll.dll on Windows and adslib.so on Linux. The Linux library is included in this package.
 
 Refer to link https://pyads.readthedocs.io/en/latest/index.html
