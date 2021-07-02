@@ -16,4 +16,4 @@ Refer to link https://pyads.readthedocs.io/en/latest/index.html
    You can open Python3 and try to add library :>>> import pyads
 
 ### QuickStart
-   By script quickstartads.py you can try to read and write variable via ADS Beckhoff
+   By script [QuickStartPYADS.py](https://github.com/squidmoron/Python3-read-variable-from-ADS-Beckhoff/blob/main/QuickStartPyADS.py) you can try to read and write variable via ADS Beckhoff
